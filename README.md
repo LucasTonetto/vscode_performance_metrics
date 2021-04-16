@@ -6,11 +6,11 @@ This extension has the purpose to show CPU and RAM usage.
 
 Active the extension using "Perfomance Metrics" command at the vscode command pallet.
 
-![Step1](./step1.png)
+![Step1](https://raw.githubusercontent.com/LucasTonetto/vscode_performance_metrics/main/step1.png)
 
 Metrics will be shown at the bottom at the Status Bar.
 
-![Step2](./step2.png)
+![Step2](https://raw.githubusercontent.com/LucasTonetto/vscode_performance_metrics/main/step2.png)
 
 ## Requirements
 
