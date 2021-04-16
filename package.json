@@ -1,0 +1,44 @@
+{
+	"name": "performance-metrics",
+	"displayName": "Performance Metrics",
+	"description": "This extension has the purpose to show CPU and RAM usage.",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.55.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:performance-metrics.performance_metrics"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "performance-metrics.performance_metrics",
+				"title": "Performance Metrics"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.55.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.4",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.19.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.2.1",
+		"typescript": "^4.1.3",
+		"vscode-test": "^1.5.0"
+	},
+	"dependencies": {
+		"node-os-utils": "^1.3.5",
+		"os-utils": "0.0.14"
+	}
+}
