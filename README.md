@@ -18,6 +18,14 @@ This extension uses node-os-utils and os node's packages.
 
 ## Release Notes
 
+## [1.0.2]
+
+- Fix Bug: Round display RAM Usage value for 2 decimal places
+
+## [1.0.1]
+
+**Fix Bug: Usage RAM**: The RAM value displayed was the free RAM value rather than the usage RAM value
+
 ### 1.0.0
 
 Initial release.

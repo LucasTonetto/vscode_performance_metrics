@@ -33,7 +33,7 @@ function activate(context) {
 			const total_ram = os.totalmem();
 			const free_ram_gb = (free_ram/(1024*1024*1024)).toFixed(2);
 			const total_ram_gb = (total_ram/(1024*1024*1024)).toFixed(2);
-			const usage_ram_gb = parseFloat(total_ram_gb) - parseFloat(free_ram_gb);
+			const usage_ram_gb = (parseFloat(total_ram_gb) - parseFloat(free_ram_gb)).toFixed(2);
 			const cpu_usage = await cpuUsage();
 			statusBarItem.text = `RAM: ${usage_ram_gb}/${total_ram_gb} GB`;
 			statusBarItem.text += `\tCPU: ${cpu_usage}%`;
