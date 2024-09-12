@@ -2,7 +2,7 @@
 	"name": "performance-metrics",
 	"displayName": "Performance Metrics",
 	"description": "This extension has the purpose to show CPU and RAM usage.",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"publisher": "lucasTonetto",
 	"repository": "https://github.com/LucasTonetto/vscode_performance_metrics/tree/main",
 	"engines": {
